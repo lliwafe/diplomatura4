@@ -1,0 +1,102 @@
+
+/* Reglas etiqueta o tipo  */
+
+body{
+    background-color: rgb(223, 221, 221);
+}
+
+h1{
+    color: rgb(233, 17, 17);
+    text-transform: uppercase; /*mayuscula */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-style: italic;
+    color: rgb(11, 23, 138);
+    padding-left: 15px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    margin:0px auto;
+    border-radius: 50%;
+}
+
+
+/* Reglas clases  */
+
+.respuesta{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+
+.primero{ 
+    font-weight: bold;
+    text-decoration: underline rgb(2, 2, 2); 
+}
+
+/* Reglas Id  */
+
+#caja {
+    text-align: center;
+}
+
+#contacto {
+    text-align: center;
+    margin-top:80px;
+}
+
+
+
+/* Gradiante / Bordes Redondeados /Sombras.*/
+.titulo{
+    background: #b6c2c7;
+    background: linear-gradient(270deg,rgba(186, 216, 231, 0.88) 0%, #a1b4b9 40%, rgba(0,255,231,0) 80%);
+    background: -webkit-linear-gradient(270deg,rgba(206, 230, 241, 0.88) 0%, #a7bcc2 40%, rgba(0,255,231,0) 80%);
+    background: -moz-linear-gradient(270deg,rgba(194, 223, 238, 0.88) 0%, #a5bdc4 40%, rgba(0,255,231,0) 80%);
+    border-radius: 37px 37px 37px 37px;
+    -webkit-border-radius: 37px 37px 37px 37px;
+    -moz-border-radius: 37px 37px 37px 37px;
+}
+
+.contenedor{
+    background-color: #d8e0e4;
+    box-shadow: -1px 12px 26px 1px rgba(0,0,0,0.7);
+    -webkit-box-shadow: -1px 12px 26px 1px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 12px 26px 1px rgba(0,0,0,0.7);
+
+    border-radius: 37px 37px 37px 37px;
+    -webkit-border-radius: 37px 37px 37px 37px;
+    -moz-border-radius: 37px 37px 37px 37px;
+
+    padding-bottom:10px ;
+}
+
+/* tipografia  / Columnas */
+
+.destacados_1{
+    color: rgb(89, 9, 216);
+    line-height: 22px;
+    padding-left: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.destacados_2{
+    color: rgb(24, 22, 22);
+    line-height: 22px;
+    padding-left: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.destacados_3{
+    color: rgb(10, 88, 23);
+    line-height: 22px;
+    padding-left: 15px;
+    column-count: 3;
+    column-gap: 50px;
+    font-family: 'Rubik', sans-serif;
+}
